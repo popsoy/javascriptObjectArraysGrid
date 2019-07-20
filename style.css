@@ -1,0 +1,29 @@
+div#displayProducts img {
+    width: 50%;
+}
+div#displayProducts p span {
+    font-size: 22px;
+    font-weight: 500;
+}
+.grid-container {
+    display: grid;
+    grid-column-gap: 50px;
+    grid-template-columns: auto auto auto;
+    background-color: #2f2fa2;
+    padding: 10px;
+  }
+
+  .grid-item {
+    background-color: #659dbd;
+    border: 1px solid #553d67;
+    padding: 20px;
+  }
+
+  img {
+    display: inline-block;
+    width: 100% !important;
+}
+h1 {
+    color: #ffff;
+    text-align: center;
+}
