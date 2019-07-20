@@ -164,6 +164,7 @@ products.forEach(function(item){
     <p><span>Manufacture: </span>${item.manufacturer}</p>
     <p><span>Stocks: </span>${item.stocks}</p>
     <p><span>Supplier: </span>${item.supplier}</p>
+    <a target="_blank" href ="${item.url}"><button type="button" class="btn btn-primary">Buy Now</button></a>
     </div>
  `
 })
